@@ -11,18 +11,18 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 running := 0
 
 ; === User settings ===
-swap := false 
-; swap := true 				; swap scroll direction
+;swap := false 
+ swap := true 				; swap scroll direction
 
-; horiz := false 
-horiz := true 				; use horizontal movement as input
+ horiz := false 
+;horiz := true 				; use horizontal movement as input
 
-k := 2					; scroll speed coefficient (higher k means higher speed)
+k := 1				; scroll speed coefficient (higher k means higher speed)
 
 ; === Internal settings ===
 scrollsLimit := 15			; max amount of scroll at once 
-S := 12						; unit distance (higher S = lower speed)
-T := 30					; scan frequency in MS (
+S := 5						; unit distance (higher S = lower speed)
+T := 20			 		; scan frequency in MS (
 
 ; ==============
 
